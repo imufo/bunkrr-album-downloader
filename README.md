@@ -1,10 +1,10 @@
 # bunkrr-album-downloader
 This is a simple app written in python with python libraries to download a bunkrr album.
----------------------------------------------------------------------------[overview]---------------------------------------------------------------------------
+-------------------------------------------------[overview]---------------------------------------------------------------------------
 This is a python app for downloading all images inside a bunkrr album.
 This version is just a prototype and only works for bunkrr album links with top level domain .su
 
--------------------------------------------------------------------------[requirements]------------------------------------------------------------------------
+-------------------------------------------------[requirements]-----------------------------------------------------------------------
 Interpreter: python3.7 or above
 
 required python libraries:
@@ -14,7 +14,7 @@ required python libraries:
               You can also install them using [pip install -r requirements.txt] in the same directory which requirements.txt exists,
                this will install exactly versions which I have used (It would be best using a virtual environment)
 
--------------------------------------------------------------------------[how to use]---------------------------------------------------------------------------
+--------------------------------------------------[how to use]--------------------------------------------------------------------------
 After that you were satisfied and installed requirements just run the script with python interpreter.
 prompt will ask you for the album link, copy and paste album link
 Ex:
@@ -39,7 +39,7 @@ After all images were downloaded program will finish and quit.
 ![Image](https://user-images.githubusercontent.com/60540316/266841006-5924726e-f8c2-4069-953c-ed9e46410eb8.png)
 
 
--------------------------------------------------------------------------[considerations]------------------------------------------------------------------------
+---------------------------------------------------[considerations]---------------------------------------------------------------------
 First of all this will only work for bunkrr.su albums.
 Second, due to fast changing of bunkrr.su web site it is possible that it doesn't work properly.
 Until the writing date of this readme [2023-9-10] works fine.
